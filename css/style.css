@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+ }
+ 
+ body, ul, p, h1, h2, h3, h4, h5{
+     margin: 0;
+     padding: 0;
+ }
+
+ 
+
+ .about-card{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+ }
+
+ .line{
+    border: 2px solid black;
+    padding: 15px 20px;
+ }
+
+ .d-none{
+   display: none;
+ }
+
+ .about-card p{
+   color: brown;
+   font-weight: bolder;
+   font-size: 20px;
+ }
+
+ .inp{
+width: 50%;
+border: 3px solid rgb(12, 0, 31);
+border-radius: 20px;
+padding: 10px 20px;
+text-align: center;
+color: red;
+font-weight: 600;
+ }
+
+ .form_f{
+display: flex;
+align-items: center;
+flex-direction: column;
+ }
+
+ label{
+   color: red;
+   font-weight: bolder;
+   margin: 20px 0;
+ }
+
+ .btn{
+background-color: white;
+border-radius: 4px;
+margin-top: 20px;
+border: 1px solid black;
+color: black;
+transition: 1s;
+padding: 5px 10px;
+min-width: 92px;
+box-shadow: 4px 4px 2px black;
+ }
+
+ .btn:hover{
+   background-color: black;
+   color: white;
+   box-shadow: none;
+
+
+ }
+
+ .addproduct{
+ display: flex;
+ align-items: flex-end;
+ justify-content: space-between;
+ }
+
+ .addproduct_text h2{
+   text-align: left;
+   padding-bottom: 10px;
+ }
+
+.addproduct{
+   border-bottom: 2px solid black;
+   
+}
+
+.btn_sec{
+   padding-bottom: 10px;
+}
+
+.cards_btns_del_add{
+   display: flex;
+   justify-content: space-between;
+   align-items: flex-end;
+}
+
+.m_t{
+   margin-top: 20px;
+}
+
+.cards_btns_del_add{
+   border-bottom: 2px solid black;
+   
+}
+
+
+.pr_text{
+margin-top: 10px;
+margin-bottom: 30px;
+}
+
+.pr_btn{
+   margin-top: 10px;
+   margin-bottom: 30px;
+}
+
+ 
+/* responsive */
+@media (max-width:470px){
+   .cards_btns_del_add{
+      flex-direction: column;
+      align-items: center;
+   }
+   .pr_btn{
+      margin-top: 10px;
+      margin-bottom: 15px;
+   }
+   .pr_text{
+      margin-top: 10px;
+      margin-bottom: 15px;
+      }
+
+      .addproduct{
+         flex-direction: column;
+         align-items: center;
+      }
+      
+}
